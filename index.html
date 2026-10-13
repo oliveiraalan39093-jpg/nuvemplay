@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NuvemPlay | Cloud Gaming</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;background:#080d18;color:white;font-family:Arial,sans-serif}
+header{padding:22px 7%;background:#111a2b;border-bottom:1px solid #263650}
+.logo{font-size:28px;font-weight:bold;color:#5ee7ff}
+main{max-width:1100px;margin:auto;padding:35px 20px}
+h1{font-size:36px}
+p{color:#b6c4d8;line-height:1.5}
+.games{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:18px}
+.card{background:#141f33;border:1px solid #263650;border-radius:15px;padding:22px}
+.emoji{font-size:42px}
+button{background:#5ee7ff;border:0;border-radius:8px;padding:12px 18px;font-weight:bold;cursor:pointer}
+footer{padding:25px;text-align:center;color:#9aabc2}
+</style>
+</head>
+<body>
+<header><div class="logo">☁️ NuvemPlay</div></header>
+<main>
+<h1>Seu mundo gamer na nuvem 🎮</h1>
+<p>Escolha um jogo e descubra opções para jogar pelo navegador.</p>
+<div class="games">
+<div class="card">
+<div class="emoji">🎮</div>
+<h2>Roblox</h2>
+<p>Entre na plataforma oficial do Roblox.</p>
+<button onclick="window.open('https://www.roblox.com/','_blank')">Abrir Roblox</button>
+</div>
+<div class="card">
+<div class="emoji">☁️</div>
+<h2>GeForce NOW</h2>
+<p>Confira os jogos compatíveis com streaming.</p>
+<button onclick="window.open('https://play.geforcenow.com/','_blank')">Abrir Cloud</button>
+</div>
+<div class="card">
+<div class="emoji">🕹️</div>
+<h2>Jogos de navegador</h2>
+<p>Jogue títulos que funcionam diretamente no navegador.</p>
+<button onclick="window.open('https://www.crazygames.com/','_blank')">Ver jogos</button>
+</div>
+</div>
+</main>
+<footer>NuvemPlay · Projeto independente</footer>
+</body>
+</html>
